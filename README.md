@@ -1,14 +1,9 @@
 
 # Food Explorer
 
-## 💻 Sobre o desafio
-A aplicação que desenvolveremos é um cardápio digital para um restaurante fictício, conhecido como foodExplorer.
-Este projeto está dividido em duas partes:
-
-Backend 
-Frontend
-
-## Neste desafio foram abordados os seguintes temas:
+## 💻 About
+API Restful - The application that we will develop is a digital menu for a fictional restaurant, known as foodExplorer.
+In this challenge, the following topics were addressed:
 
 - Express;
 - Routes e http method;
@@ -23,7 +18,7 @@ Frontend
 - Disk Storage;
 - Cors;
 
-## Tecnologias usadas
+## 🛠 Tech Stack
 - Express
 - CORS
 - KnexJS
@@ -31,19 +26,43 @@ Frontend
 - Node
 - Multer
 
-## ⚙️ Instruções
-1 - É importante que todas as instruções do desafio sejam lidas com muita atenção, já que a avaliação desse projeto, irá garantir a sua certificação aqui no Explorer;
+## 🚀 How to run the project
+This project is divided into two parts:
 
-2 - Use o link do Figma como base para o projeto. Também disponibilizamos para download todos os assets necessários;
+1) Backend (food-explorer-backend folder)
+2) Frontend (food-explorer-frontend folder)
 
-3 - O link do Figma possui o layout de uma aplicação completa que vai desde a visualização de um prato até o pagamento do mesmo. Algumas funcionalidades mais simples, serão obrigatórias e corrigidas enquanto as funcionalidades envolvendo todo o processo de pedidos, serão classificadas como milha extra, logo, não passarão por uma correção.
+## Pre-requisites
+Before starting, you will need to have the following tools installed on your machine: [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/). Also, it's nice to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-4 - O foodExplorer terá duas personas: o administrador e o usuário;
+## 🎲 Running the BackEnd (Server)
 
-5 - É necessário se autenticar para entrar na aplicação através da tela de login;
+```bash
+  # Clone this repository
+$ git clone git@github.com:patizani/food-explorer-backend.git
 
-6 - O admin é a pessoa responsável pelo restaurante, logo, poderá criar, visualizar, editar e apagar um prato a qualquer momento. Cada prato deve conter uma imagem, um nome, uma breve descrição, os ingredientes e o seu preço. Ao clicar em adicionar prato, o admin receberá uma mensagem de sucesso e será redirecionado para a página principal;
+# Access the project folder in your terminal
+$ cd food-explorer-backend
 
-7 - O usuário irá visualizar todos os pratos cadastrados e, quando clicar em um prato, será redirecionado para uma nova tela com informações mais detalhadas sobre ele.
+# Install the dependencies
+$ npm install
 
-8 - Tanto o admin quanto o usuário poderão buscar os pratos por nome e/ou ingredientes;
+# Execute as migration e seed
+$ npm migrate
+$ npm seed
+
+# Run the application in development mode
+$ npm run dev
+
+# Login do admin
+$ email: admin@email.com
+$ password: 123456
+
+# he Server will start at port: 3333 - go to <http://localhost:3333>
+```
+
+## 📝 License
+This project is under the license
+[MIT](https://github.com/patizani/food-explorer-backend/new/main)
+
+Made with ❤️ by Patrícia Garcia Zanirati 👋🏽 [Get in Touch!](https://www.linkedin.com/in/patricia-zanirati/)
