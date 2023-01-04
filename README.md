@@ -78,8 +78,16 @@ $ npm run dev
 $ email: admin@email.com
 $ password: 123456
 
-# he Server will start at port: 3333 - go to <http://localhost:3333>
+# The Server will start at port: 3333 - go to <http://localhost:3333>
 ```
+
+## 
+- This BackEnd was hosted directly on [Render](https://render.com/). 
+- The Frontend was hosted directly on [Netlify](https://www.netlify.com/).
+
+ **Note:** As it is hosted on a free service, the BackEnd "hibernates" after 15 minutes of inactivity.
+If you are trying to access the website and the BackEnd is unresponsive, just wait as it will be "initializing" the services.
+This step may take up to 1 minute, depending on the load on the Render servers.
 
 ## 📝 License
 This project is under the license
