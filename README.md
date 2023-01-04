@@ -26,6 +26,26 @@ In this challenge, the following topics were addressed:
 - Node
 - Multer
 
+## ⚙️ Features
+- A structured project, with a good organization of folders, division of components in the front-end, etc.
+- A README.md file with specifications on how to run the project in a dev environment.
+- Users must authenticate themselves to enter the application through the login screen, you can apply what you learned in JWT authentication classes. Authentication must be validated with a password.
+- The admin will upload images to register the dishes.
+- Finally, deploy your application.
+- Give your functions and variables meaningful names: work with Clean Code concepts a bit.
+- The admin, restaurant and users data will be stored in a database.
+- Possibility to search by dish name, ingredients or favorite dish
+- It is essential that your interface consumes its own API.
+- Interesting to make the application responsive: use the concept of Mobile First that was learned in class.
+- It's up to you where to apply animations, transitions, and transformations.
+- It meets the model proposed in Figma and contains elements indicative of action and state. opcionais
+- The user can add items to the cart by clicking the add button. The amount is controlled by the “-” and “+” buttons;
+- By clicking on the my order button, the user will be redirected to a screen where he will see his order, the sum and the payment methods;
+- The user will be able to delete a dish from the cart and the total amount of the order should be updated automatically;
+- The user can mark a dish as a favorite, just click on the heart that appears next to each one;
+- The admin will view and control the status of each order, through a select field. Orders will appear in a table when you click Orders;
+
+
 ## 🚀 How to run the project
 This project is divided into two parts:
 
